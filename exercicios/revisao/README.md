@@ -2,6 +2,24 @@
 
 ## Nome do Exercicio
 
+- Explicação do exercício: Escrever um programa que receba um e-mail e uma senha e só permita que o login seja feito quando o e-mail for teste@reprograma.com E a senha seja teste123, caso um deles esteja errado escrever uma mensagem de erro e perguntar e-mail e senha novamente até o usuário acertar.
+
+EMAIL E SENHA PRECISAM ESTAR CORRETOS
+email E senha digitados estão iguais a teste@reprograma.com e teste123
+
+DADOS CERTOS -> LOGIN
+DADOS ERRADOS -> ERRO
+
+ESTRUTURA DE DECISAO -> IF/ELSE (SE/SENAO)
+
+PASSOS PARA RESOLVER O EXERCICIO:
+
+- receber e guardar um email e uma senha
+- guardar email correto e senha correta
+- comparação de email e senha para verificar se pode fazer login
+  (se email e senha certos, fazer login, senão dar mensagem de erro)
+- repetir ações ENQUANTO email e senha incorretos
+
 - Explicação do exercício: Adivinhe o número.
 O usuário tem que adivinhar um número inteiro aleatório entre 0 e 50.
 
@@ -13,7 +31,6 @@ Extra: o usuário tem o limite de 5 tentativas para acertar o número
 
 OBS: usar este código para gerar um número aleatório
 Math.floor(Math.random()*(50 - 0 + 1));
-
 
 ---
 
