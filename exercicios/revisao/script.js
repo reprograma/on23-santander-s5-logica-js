@@ -26,3 +26,75 @@ prompt('Qual a sua comida favorita?') // permite que o usuário digite coisas
 alert('Parabens, você ganhou 100 reais') // coloca um alerta na tela 
 confirm('Você concorda com nossos termos?') // obter confirmacao do usuário - true ou false
 console.log('mensagem') // mensagem no console do navegador
+
+// OPERADORES DE COMPARAÇÃO
+5 == '5' // true
+5 === '5' // false
+5 != 5 // false
+5 !== '5' // false
+5 > 10 // false
+5 < 10 // true
+5 >= 10 // false
+5 <= 5 // true
+
+
+// OPERADORES LÓGICOS
+
+// && E - para algo ser verdade todas as partes tem que ser verdadeiras
+
+   5 > 3 && 10 < 20 // true 
+// true && true -> true
+
+  'Ana' == 'Ana' && 30 > 15 // true
+// true && true -> true
+
+// || OU - para algo ser falso todas as partes precisam ser falsas
+
+  5 == 5 || 10 < 5 // true
+// true || false -> true
+   
+// ! NOT - inverte o valor da sentença
+
+// true - !true -> false
+// false - !false -> verdadeira
+
+!('quinta' == 'Quinta') // true
+// !(false) -> true
+
+// CONDICIONAL - SE/SENÃO
+// IF / ELSE 
+if (condicao) {
+  // codigo a ser executado se a condição for verdadeira
+} else {
+  // codigo a ser executado se a condição for falsa 
+} 
+
+let idade = 17;
+
+if (idade < 18) {
+  alert("menor de idade")
+} else {
+  alert("maior de idade")
+}
+
+if (idade <= 12) {
+  alert('CRIANÇA')
+} else if (idade < 18) {
+  alert('ADOLESCENTE')
+} else if (idade < 60) {
+  alert('ADULTO')
+} else {
+  alert('IDOSO')
+}
+
+if (condicao1) {
+  if (condicao2) {
+
+  } else {
+
+  }
+}
+
+if (condicao1 && condicao2) {
+
+}
