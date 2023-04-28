@@ -5,11 +5,11 @@ let resultado = (nota1+nota2)/2
 
 alert (resultado)
 
-if (resultado>6.99){
+if (resultado>=7){
     alert ("PARABÉNS! Você foi APROVADO!")
 }
 
-else if (resultado>4.9){
+else if (resultado>=5){
     alert ("Você está em RECUPERAÇÃO!")
 } 
 
