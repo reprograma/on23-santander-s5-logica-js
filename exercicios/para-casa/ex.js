@@ -11,7 +11,7 @@ if (media == max) {
   alert(`OLHA ELAAAAAA! Média: ${media}`);
 } else if (media >= min) {
   alert(`Não fez mais que sua obrigação! Média: ${media}`);
-} else if (media >= 5 && media <= 6.9) {
+} else if (media >= 5) {
   alert(`Não merece, mas vou te dar outra chance! Média: ${media}`);
 } else {
   alert(`Cuidado com a burra! REPROVADA!!! Média: ${media}`);
