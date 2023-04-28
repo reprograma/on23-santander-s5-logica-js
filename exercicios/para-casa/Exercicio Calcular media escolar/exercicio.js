@@ -5,7 +5,7 @@ Resultado = (primeiraNota + segundaNota) / 2;
 
 if (Resultado >= 7) {
 alert ("O aluno está aprovado")}
-else if ( Resultado >=5 && Resultado <7) {
+else if ( Resultado >=5) {
     alert ("O aluno está na recuperação")
 }
 else {
