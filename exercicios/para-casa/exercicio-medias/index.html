@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de médias</title>
+    <!-- fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+
+  <body>
+    <main class="container-principal">
+      <h1>Calculadora de média.</h1>
+      <section class="campo-interacao">
+        <p class="txt">
+          <label for="box-num1">Digite a primeira nota:</label>
+          <input type="number" id="box-num1" />
+        </p>
+        <p class="txt">
+          <label for="box-num2">Digite a segunda nota:</label>
+          <input type="number" id="box-num2" />
+        </p>
+        <p class="txt">
+          <input
+            type="button"
+            id="box-enviar"
+            value="Calcular"
+            onclick="calcularMedia()" 
+          />
+        </p>
+
+        <div>
+            <p id="res" class="txt">
+                Resultado:
+            </p> 
+        </div>
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
